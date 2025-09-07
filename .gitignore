@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+.npm/
+
+# Build outputs
+dist/
+
+# Environment variables
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# IDE and editor files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Vercel
+.vercel/
+.vercel

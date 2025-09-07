@@ -1,0 +1,33 @@
+/* This file is for testing responsive design principles */
+/* It's not included in the main application but serves as a reference */
+
+/* Mobile first approach */
+.responsive-test {
+  padding: 1rem;
+  background-color: #f0f0f0;
+  margin: 1rem 0;
+}
+
+/* Tablet and above */
+@media (min-width: 640px) {
+  .responsive-test {
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+  }
+}
+
+/* Desktop and above */
+@media (min-width: 1024px) {
+  .responsive-test {
+    padding: 2rem;
+    margin: 2rem 0;
+  }
+}
+
+/* Large desktop and above */
+@media (min-width: 1280px) {
+  .responsive-test {
+    padding: 2.5rem;
+    margin: 2.5rem 0;
+  }
+}
