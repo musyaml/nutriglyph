@@ -1,4 +1,4 @@
-import { VercelRequest, VercelResponse } from '@vercel/node';
+import type { VercelRequest, VercelResponse } from '@vercel/node';
 
 // Ensure HF_TOKEN is defined
 const HF_TOKEN = process.env.HF_TOKEN;

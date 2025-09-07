@@ -1,4 +1,4 @@
-import { VercelRequest, VercelResponse } from '@vercel/node';
+import type { VercelRequest, VercelResponse } from '@vercel/node';
 
 const OPEN_FOOD_FACTS_API_BASE = 'https://world.openfoodfacts.org/api/v2/product';
 

@@ -1,0 +1,30 @@
+[00:28:16.756] Running build in Washington, D.C., USA (East) – iad1
+[00:28:16.756] Build machine configuration: 2 cores, 8 GB
+[00:28:16.788] Cloning github.com/musyaml/nutriglyph (Branch: main, Commit: 4a85db6)
+[00:28:17.049] Cloning completed: 261.000ms
+[00:28:17.818] Restored build cache from previous deployment (95EzrZ6hJS3gGeXnHKabawgXJzXU)
+[00:28:18.159] Running "vercel build"
+[00:28:18.547] Vercel CLI 47.0.5
+[00:28:18.718] WARN! Due to `builds` existing in your configuration file, the Build and Development Settings defined in your Project Settings will not apply. Learn More: https://vercel.link/unused-build-settings
+[00:28:19.467] Installing dependencies...
+[00:28:20.628] 
+[00:28:20.629] up to date in 910ms
+[00:28:20.630] 
+[00:28:20.630] 65 packages are looking for funding
+[00:28:20.630]   run `npm fund` for details
+[00:28:21.015] Using TypeScript 5.8.3 (local user-provided)
+[00:28:23.356] api/health.ts(1,10): error TS1484: 'VercelRequest' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+[00:28:23.356] api/health.ts(1,25): error TS1484: 'VercelResponse' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+[00:28:23.356] 
+[00:28:30.355] Using TypeScript 5.8.3 (local user-provided)
+[00:28:30.862] api/huggingface.ts(1,10): error TS1484: 'VercelRequest' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+[00:28:30.863] api/huggingface.ts(1,25): error TS1484: 'VercelResponse' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+[00:28:30.863] 
+[00:28:36.672] Using TypeScript 5.8.3 (local user-provided)
+[00:28:37.106] api/openfoodfacts.ts(1,10): error TS1484: 'VercelRequest' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+[00:28:37.106] api/openfoodfacts.ts(1,25): error TS1484: 'VercelResponse' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+[00:28:37.106] 
+[00:28:42.331] Build Completed in /vercel/output [23s]
+[00:28:42.750] Deploying outputs...
+[00:28:53.552] Deployment completed
+[00:28:54.392] Creating build cache...
