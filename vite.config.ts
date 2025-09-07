@@ -3,14 +3,11 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [tailwindcss()],
-  publicDir: 'public',
+  publicDir: "public",
   build: {
-    outDir: 'dist',
+    outDir: "dist",
     rollupOptions: {
-      input: 'public/index.html'
-    }
+      input: "public/index.html",
+    },
   },
-  server: {
-    host: true
-  }
 });
