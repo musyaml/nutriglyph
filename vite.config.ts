@@ -5,6 +5,12 @@ export default defineConfig({
   plugins: [tailwindcss()],
   publicDir: 'public',
   build: {
-    outDir: 'dist'
+    outDir: 'dist',
+    rollupOptions: {
+      input: 'public/index.html'
+    }
+  },
+  server: {
+    host: true
   }
 });
